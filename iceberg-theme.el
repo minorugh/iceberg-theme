@@ -238,18 +238,6 @@
    `(howm-view-empty-face ((t (:background ,background))))
    `(howm-mode-title-face ((t (:foreground ,red)))) ;; =
 
-   ;; rainbow-delimiters
-   ;; `(rainbow-delimiters-depth-1-face ((t (:foreground ,orange))))
-   ;; `(rainbow-delimiters-depth-1-face ((t (:foreground ,foreground))))
-   ;; `(rainbow-delimiters-depth-2-face ((t (:foreground ,blue))))
-   ;; `(rainbow-delimiters-depth-3-face ((t (:foreground ,cyan))))
-   ;; `(rainbow-delimiters-depth-4-face ((t (:foreground ,green))))
-   ;; `(rainbow-delimiters-depth-5-face ((t (:foreground ,purple))))
-   ;; `(rainbow-delimiters-depth-6-face ((t (:foreground ,red))))
-   ;; `(rainbow-delimiters-depth-7-face ((t (:foreground ,comment))))
-   ;; `(rainbow-delimiters-depth-8-face ((t (:foreground ,gray))))
-   ;; `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground))))
-   ;; '(rainbow-delimiters-unmatched-face ((t (:background "#E27878" :foreground "#111" :weight bold))))
 
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,purple))))
@@ -281,9 +269,12 @@
    `(doom-modeline-bar-inactive ((t (:background nil))))
 
    ;; show-paren-mode
+   `(show-paren-match ((t (:background ,blue :foreground ,current-line))))
+   `(show-paren-mismatch ((t (:background ,orange :foreground ,current-line))))
    ;; `(show-paren-match ((t (:background ,foreground :foreground ,background))))
    ;; `(show-paren-match ((t (:background ,background :foreground ,red :weight bold))))
    ;; `(show-paren-mismatch ((t (:background ,background :foreground ,red :weight bold))))
+
    )
 
   (custom-theme-set-variables
