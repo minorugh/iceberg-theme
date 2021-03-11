@@ -1,1 +1,1 @@
-# iceberge-emacs
+# iceberge.emacs
