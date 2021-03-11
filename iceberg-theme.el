@@ -240,7 +240,7 @@
 
 
    ;; rainbow-delimiters
-   `(rainbow-delimiters-depth-1-face ((t (:foreground ,purple))))
+   `(rainbow-delimiters-depth-1-face ((t (:foreground ,foreground))))
    `(rainbow-delimiters-depth-2-face ((t (:foreground ,blue))))
    `(rainbow-delimiters-depth-3-face ((t (:foreground ,cyan))))
    `(rainbow-delimiters-depth-4-face ((t (:foreground ,green))))
