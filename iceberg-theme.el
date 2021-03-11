@@ -271,9 +271,6 @@
    ;; show-paren-mode
    `(show-paren-match ((t (:background "#f1fa8c" :foreground "#44475a"))))
    `(show-paren-mismatch ((t (:background ,orange :foreground ,current-line))))
-   ;; `(show-paren-match ((t (:background ,foreground :foreground ,background))))
-   ;; `(show-paren-match ((t (:background ,background :foreground ,red :weight bold))))
-   ;; `(show-paren-mismatch ((t (:background ,background :foreground ,red :weight bold))))
 
    )
 
