@@ -240,16 +240,28 @@
 
    ;; rainbow-delimiters
    ;; `(rainbow-delimiters-depth-1-face ((t (:foreground ,orange))))
-   `(rainbow-delimiters-depth-1-face ((t (:foreground ,foreground))))
+   ;; `(rainbow-delimiters-depth-1-face ((t (:foreground ,foreground))))
+   ;; `(rainbow-delimiters-depth-2-face ((t (:foreground ,blue))))
+   ;; `(rainbow-delimiters-depth-3-face ((t (:foreground ,cyan))))
+   ;; `(rainbow-delimiters-depth-4-face ((t (:foreground ,green))))
+   ;; `(rainbow-delimiters-depth-5-face ((t (:foreground ,purple))))
+   ;; `(rainbow-delimiters-depth-6-face ((t (:foreground ,red))))
+   ;; `(rainbow-delimiters-depth-7-face ((t (:foreground ,comment))))
+   ;; `(rainbow-delimiters-depth-8-face ((t (:foreground ,gray))))
+   ;; `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground))))
+   ;; '(rainbow-delimiters-unmatched-face ((t (:background "#E27878" :foreground "#111" :weight bold))))
+
+   ;; rainbow-delimiters
+   `(rainbow-delimiters-depth-1-face ((t (:foreground ,purple))))
    `(rainbow-delimiters-depth-2-face ((t (:foreground ,blue))))
    `(rainbow-delimiters-depth-3-face ((t (:foreground ,cyan))))
    `(rainbow-delimiters-depth-4-face ((t (:foreground ,green))))
-   `(rainbow-delimiters-depth-5-face ((t (:foreground ,purple))))
+   `(rainbow-delimiters-depth-5-face ((t (:foreground ,orange))))
    `(rainbow-delimiters-depth-6-face ((t (:foreground ,red))))
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,comment))))
-   `(rainbow-delimiters-depth-8-face ((t (:foreground ,gray))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground ,line-number-fg))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground))))
-   '(rainbow-delimiters-unmatched-face ((t (:background "#E27878" :foreground "#111" :weight bold))))
+
 
    ;; company
    `(company-tooltip ((t (:foreground ,foreground :background ,current-line))))
