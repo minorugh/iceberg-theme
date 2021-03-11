@@ -247,7 +247,7 @@
    `(rainbow-delimiters-depth-5-face ((t (:foreground ,orange))))
    `(rainbow-delimiters-depth-6-face ((t (:foreground ,red))))
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,comment))))
-   ;; `(rainbow-delimiters-depth-8-face ((t (:foreground ,line-number-fg))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground ,selection))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground))))
 
 
