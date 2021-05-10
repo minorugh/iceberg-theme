@@ -154,8 +154,8 @@
 
    ;; ivy
    `(ivy-current-match ((t (:background ,current-line))))
-   `(ivy-minibuffer-match-face-1 ((t (:background ,nil :foreground ,blue :weight bold))))
-   `(ivy-minibuffer-match-face-2 ((t (:background ,nil :foreground ,red :weight bold))))
+   `(ivy-minibuffer-match-face-1 ((t (:background ,nil :foreground ,red :weight bold))))
+   `(ivy-minibuffer-match-face-2 ((t (:background ,nil :foreground ,blue :weight bold))))
    `(ivy-minibuffer-match-face-3 ((t (:background ,nil :foreground ,green :weight bold))))
    `(ivy-minibuffer-match-face-4 ((t (:background ,nil :foreground ,orange :weight bold))))
 
