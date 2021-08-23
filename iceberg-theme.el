@@ -139,11 +139,6 @@
    `(imenu-list-entry-face-2 ((t (:foreground ))))
    `(imenu-list-entry-subalist-face-2 ((t (:inherit unspecified :weight bold))))
 
-   ;; mozc-cand-posframe
-   ;; '(mozc-cand-posframe-normal-face ((t (:background "#282D43" :foreground "#C7C9D1"))))
-   ;; '(mozc-cand-posframe-focused-face ((t (:background "#393F60" :foreground "#C7C9D1"))))
-   ;; '(mozc-cand-posframe-footer-face ((t (:background "#282D43" :foreground "#454D73"))))
-
    ;; popup
    '(popup-tip-face ((t (:background "#393F60" :foreground "#C7C9D1"))))
 
