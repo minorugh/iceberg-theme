@@ -276,20 +276,12 @@
 
 
 ;;;###autoload
-;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
-  (let* ((base (file-name-directory load-file-name))
-         (dir (expand-file-name "themes/" base)))
-    (add-to-list 'custom-theme-load-path
-                 (or (and (file-directory-p dir) dir)
-                     base))))
-;; (and load-file-name
-;;      (boundp 'custom-theme-load-path)
-;;      (add-to-list 'custom-theme-load-path
-;; 				  (file-name-as-directory
-;; 				   (file-name-directory load-file-name))))
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 
 (provide-theme 'iceberg)
 
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; iceberg-theme.el ends here
