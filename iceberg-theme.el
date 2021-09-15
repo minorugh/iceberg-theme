@@ -82,10 +82,10 @@
 	  (t (:background ,foreground :foreground ,background :bold t))))
 
    ;; diff-hl
-   ;; `(diff-hl-change ((,class (:foreground ,orange :background ,background))))
-   ;; `(diff-hl-delete ((,class (:foreground ,red :background ,background))))
-   ;; `(diff-hl-insert ((,class (:foreground ,green :background ,background))))
-   ;; `(diff-hl-unknown ((,class (:foreground ,cyan :background ,background))))
+   `(diff-hl-change ((,class (:foreground ,orange :background ,background))))
+   `(diff-hl-delete ((,class (:foreground ,red :background ,background))))
+   `(diff-hl-insert ((,class (:foreground ,green :background ,background))))
+   `(diff-hl-unknown ((,class (:foreground ,cyan :background ,background))))
 
    ;; flycheck
    `(flycheck-error
