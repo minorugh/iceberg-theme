@@ -263,23 +263,23 @@
    `(doom-modeline-bar ((t (:background nil))))
    `(doom-modeline-bar-inactive ((t (:background nil))))
 
-    ;;;; diff-hl
-   `(diff-hl-change ((t (:foreground vc-modified :background vc-modified))))
-   `(diff-hl-delete ((t (:foreground vc-deleted :background vc-deleted))))
-   `(diff-hl-insert ((t (:foreground vc-added :background vc-added))))
-    ;;;; diff-mode <built-in>
-   `(diff-added   ((t (:inherit 'hl-line :foreground green))))
-   `(diff-changed ((t (:foreground violet))))
-   `(diff-context
-     (&dark  ((t (:foreground (doom-darken fg 0.12)))))
-     (&light ((t (:foreground (doom-lighten fg 0.12))))))
-   `(diff-removed ((t (:foreground red :background base3))))
-   `(diff-header  ((t (:foreground cyan :background nil))))
-   `(diff-file-header ((t (:foreground blue :background nil))))
-   `(diff-hunk-header ((t (:foreground violet))))
-   `(diff-refine-added   ((t (:inherit 'diff-added :inverse-video t))))
-   `(diff-refine-changed ((t (:inherit 'diff-changed :inverse-video t))))
-   `(diff-refine-removed ((t (:inherit 'diff-removed :inverse-video t))))
+   ;; ;; diff-hl
+   ;; `(diff-hl-change ((t (:foreground vc-modified :background vc-modified))))
+   ;; `(diff-hl-delete ((t (:foreground vc-deleted :background vc-deleted))))
+   ;; `(diff-hl-insert ((t (:foreground vc-added :background vc-added))))
+   ;;  ;;;; diff-mode <built-in>
+   ;; `(diff-added   ((t (:inherit 'hl-line :foreground green))))
+   ;; `(diff-changed ((t (:foreground violet))))
+   ;; `(diff-context
+   ;;   (&dark  ((t (:foreground (doom-darken fg 0.12)))))
+   ;;   (&light ((t (:foreground (doom-lighten fg 0.12))))))
+   ;; `(diff-removed ((t (:foreground red :background base3))))
+   ;; `(diff-header  ((t (:foreground cyan :background nil))))
+   ;; `(diff-file-header ((t (:foreground blue :background nil))))
+   ;; `(diff-hunk-header ((t (:foreground violet))))
+   ;; `(diff-refine-added   ((t (:inherit 'diff-added :inverse-video t))))
+   ;; `(diff-refine-changed ((t (:inherit 'diff-changed :inverse-video t))))
+   ;; `(diff-refine-removed ((t (:inherit 'diff-removed :inverse-video t))))
 
    ;; show-paren-mode
    `(show-paren-match ((t (:background "#f1fa8c" :foreground "#44475a"))))
