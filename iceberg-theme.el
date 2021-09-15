@@ -82,10 +82,10 @@
 	  (t (:background ,foreground :foreground ,background :bold t))))
 
    ;; diff-hl
-   `(diff-hl-change ((,class (:foreground ,orange :background ,background))))
-   `(diff-hl-delete ((,class (:foreground ,red :background ,background))))
-   `(diff-hl-insert ((,class (:foreground ,green :background ,background))))
-   `(diff-hl-unknown ((,class (:foreground ,cyan :background ,background))))
+   ;; `(diff-hl-change ((,class (:foreground ,orange :background ,background))))
+   ;; `(diff-hl-delete ((,class (:foreground ,red :background ,background))))
+   ;; `(diff-hl-insert ((,class (:foreground ,green :background ,background))))
+   ;; `(diff-hl-unknown ((,class (:foreground ,cyan :background ,background))))
 
    ;; flycheck
    `(flycheck-error
@@ -263,10 +263,10 @@
    `(doom-modeline-bar ((t (:background nil))))
    `(doom-modeline-bar-inactive ((t (:background nil))))
 
-   ;; ;; diff-hl
-   ;; `(diff-hl-change ((t (:foreground vc-modified :background vc-modified))))
-   ;; `(diff-hl-delete ((t (:foreground vc-deleted :background vc-deleted))))
-   ;; `(diff-hl-insert ((t (:foreground vc-added :background vc-added))))
+   ;; diff-hl
+   `(diff-hl-change ((t (:foreground vc-modified :background vc-modified))))
+   `(diff-hl-delete ((t (:foreground vc-deleted :background vc-deleted))))
+   `(diff-hl-insert ((t (:foreground vc-added :background vc-added))))
    ;;  ;;;; diff-mode <built-in>
    ;; `(diff-added   ((t (:inherit 'hl-line :foreground green))))
    ;; `(diff-changed ((t (:foreground violet))))
