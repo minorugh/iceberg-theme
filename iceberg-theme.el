@@ -42,7 +42,7 @@
    `(warning ((t (:foreground ,red :weight bold))))
 
    ;; mode-line
-   `(mode-line ((t (:background ,gray :foreground ,foreground))))
+   `(mode-line ((t (:background ,current-line :foreground ,foreground))))
    `(mode-line-emphasis ((t (:weight bold))))
    `(mode-line-inactive ((t (:background ,background :foreground ,comment))))
    `(mode-line-buffer-id ((t (:foreground ,cyan :weight bold))))
